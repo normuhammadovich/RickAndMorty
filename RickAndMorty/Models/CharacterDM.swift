@@ -17,6 +17,7 @@ class CharacterDM {
     var type: String?
     var gender: String?
     var episode: [EpisodeDM]?
+    var origin: OriginDM?
     var location: LocationDM?
     var image: String?
     var url: String?
@@ -43,48 +44,11 @@ class CharacterDM {
         self.type = json["type"].stringValue
         self.gender = json["gender"].stringValue
         self.episode = json["episode"].arrayValue.map{ EpisodeDM(json: $0 )}
+        self.origin = OriginDM(json: json["origin"])
         self.location = LocationDM(json: JSON(json["location"]))
         self.image = json["image"].stringValue
         self.url = json["url"].stringValue
         
     }
     
-}
-
-class EpisodeDM {
-    
-    var url: String?
-    var name: String?
-    
-    init() {
-        self.url = nil
-        
-    }
-    
-    init(json: JSON) {
-        
-        self.url = json.stringValue
-    }
-
-}
-
-class LocationDM {
-    
-    var name: String?
-    var url: String?
-    
-    init() {
-        
-        self.name = nil
-        self.url = nil
-        
-    }
-    
-    init(json: JSON) {
-        
-        self.name = json["name"].stringValue
-        self.url = json["url"].stringValue
-        
-    }
-
 }

@@ -54,7 +54,7 @@ class CharacterInfoTVC: UITableViewCell {
         nameLbl.text = character.name
         statusAndspeciesLbl.text = "\(character.status?.capitalized ?? "") - \(character.species?.capitalized ?? "")"
         originLbl.text = character.location?.name
-        firstSeenLbl.text = character.episode?.first?.name
+        firstSeenLbl.text = character.location?.name
         img.sd_imageIndicator = SDWebImageActivityIndicator.white
         img.sd_setImage(with: URL(string: character.image ?? ""))
         

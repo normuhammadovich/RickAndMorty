@@ -23,9 +23,12 @@
 		5F2B4C512958C20300526B41 /* Ex+UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2B4C4E2958C20300526B41 /* Ex+UIViewController.swift */; };
 		5F2B4C532958D3AF00526B41 /* CharacterDM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2B4C522958D3AF00526B41 /* CharacterDM.swift */; };
 		5F2B4C552958D99500526B41 /* pulse.json in Resources */ = {isa = PBXBuildFile; fileRef = 5F2B4C542958D99500526B41 /* pulse.json */; };
+		5F2B4C572959072E00526B41 /* LocationDM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2B4C562959072D00526B41 /* LocationDM.swift */; };
+		5F2B4C592959074D00526B41 /* EpisodeDM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2B4C582959074D00526B41 /* EpisodeDM.swift */; };
 		5F78BF472958B55D00F25905 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F78BF462958B55D00F25905 /* AppDelegate.swift */; };
 		5F78BF502958B55E00F25905 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F78BF4F2958B55E00F25905 /* Assets.xcassets */; };
 		5F78BF532958B55E00F25905 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F78BF512958B55E00F25905 /* LaunchScreen.storyboard */; };
+		5F8E990B295980BC00291050 /* OriginDM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F8E990A295980BC00291050 /* OriginDM.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,11 +49,14 @@
 		5F2B4C4E2958C20300526B41 /* Ex+UIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Ex+UIViewController.swift"; sourceTree = "<group>"; };
 		5F2B4C522958D3AF00526B41 /* CharacterDM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterDM.swift; sourceTree = "<group>"; };
 		5F2B4C542958D99500526B41 /* pulse.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = pulse.json; sourceTree = "<group>"; };
+		5F2B4C562959072D00526B41 /* LocationDM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDM.swift; sourceTree = "<group>"; };
+		5F2B4C582959074D00526B41 /* EpisodeDM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeDM.swift; sourceTree = "<group>"; };
 		5F78BF432958B55D00F25905 /* RickAndMorty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RickAndMorty.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F78BF462958B55D00F25905 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5F78BF4F2958B55E00F25905 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5F78BF522958B55E00F25905 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5F78BF542958B55E00F25905 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F8E990A295980BC00291050 /* OriginDM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OriginDM.swift; sourceTree = "<group>"; };
 		C2E3348C64D6373CBA37B80F /* Pods-RickAndMorty.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RickAndMorty.debug.xcconfig"; path = "Target Support Files/Pods-RickAndMorty/Pods-RickAndMorty.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -173,6 +179,9 @@
 			isa = PBXGroup;
 			children = (
 				5F2B4C522958D3AF00526B41 /* CharacterDM.swift */,
+				5F2B4C562959072D00526B41 /* LocationDM.swift */,
+				5F2B4C582959074D00526B41 /* EpisodeDM.swift */,
+				5F8E990A295980BC00291050 /* OriginDM.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -337,6 +346,9 @@
 				5F2B4C4F2958C20300526B41 /* Ex+UIApplication.swift in Sources */,
 				5F2B4C512958C20300526B41 /* Ex+UIViewController.swift in Sources */,
 				5F2B4C412958C14B00526B41 /* CharacterInfoTVC.swift in Sources */,
+				5F2B4C592959074D00526B41 /* EpisodeDM.swift in Sources */,
+				5F8E990B295980BC00291050 /* OriginDM.swift in Sources */,
+				5F2B4C572959072E00526B41 /* LocationDM.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
