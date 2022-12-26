@@ -114,13 +114,13 @@
 			path = VCs;
 			sourceTree = "<group>";
 		};
-		5F2B4C492958C1BD00526B41 /* Custom */ = {
+		5F2B4C492958C1BD00526B41 /* Loader */ = {
 			isa = PBXGroup;
 			children = (
 				5F2B4C542958D99500526B41 /* pulse.json */,
 				5F2B4C4A2958C1D000526B41 /* Loader.swift */,
 			);
-			path = Custom;
+			path = Loader;
 			sourceTree = "<group>";
 		};
 		5F78BF3A2958B55D00F25905 = {
@@ -199,7 +199,7 @@
 		5F78BF5E2958B5D200F25905 /* Networking */ = {
 			isa = PBXGroup;
 			children = (
-				5F2B4C492958C1BD00526B41 /* Custom */,
+				5F2B4C492958C1BD00526B41 /* Loader */,
 				5F2B4C432958C17E00526B41 /* NET.swift */,
 				5F2B4C452958C18700526B41 /* API.swift */,
 				5F2B4C472958C1A800526B41 /* Reachibility.swift */,

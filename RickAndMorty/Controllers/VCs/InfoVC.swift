@@ -35,8 +35,10 @@ class InfoVC: UIViewController {
         super.viewDidLoad()
         getInfo()
         allViews.isHidden = true
+        navigationItem.hidesBackButton = true
+        setUpNavigationBar()
     }
-    func setUpTableView() {
+    func setUpNavigationBar() {
 
         let backButton = UIBarButtonItem()
         backButton.title = "Back"
@@ -76,6 +78,7 @@ extension InfoVC {
             img.sd_imageIndicator = SDWebImageActivityIndicator.white
             img.sd_setImage(with: URL(string: character.image ?? ""))
             allViews.isHidden = false
+            navigationItem.hidesBackButton = false
             Loader.stop()
             
         }
